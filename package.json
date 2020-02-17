@@ -13,8 +13,12 @@
   "author": "iCreate <idevelopedreams@gmail.com> (live2create.me)",
   "license": "MIT",
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.0"
   },
