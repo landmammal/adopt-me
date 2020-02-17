@@ -31806,24 +31806,6 @@ var _Pet = _interopRequireDefault(require("./Pet"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
-  // return React.createElement("div", { id: "something-important" }, [
-  //   React.createElement("h1", {}, "Adopt Me!"),
-  //   React.createElement(Pet, {
-  //     name: "Luna",
-  //     animal: "Dog",
-  //     breed: "Havanes"
-  //   }),
-  //   React.createElement(Pet, {
-  //     name: "Pepper",
-  //     animal: "Bird",
-  //     breed: "Cocktail"
-  //   }),
-  //   React.createElement(Pet, {
-  //     name: "Doink",
-  //     animal: "Cat",
-  //     breed: "Mixed "
-  //   })
-  // ]);
   return _react.default.createElement("div", null, _react.default.createElement("h1", {
     id: "something-important"
   }, "Adopt Me"), _react.default.createElement(_Pet.default, {
@@ -31838,18 +31820,10 @@ var App = function App() {
     name: "Bob",
     animal: "Cat",
     breed: "Mixed"
-  }), (0, _Pet.default)({
-    name: "Pepper",
-    animal: "Bird",
-    breed: "Cocktail"
-  }), (0, _Pet.default)({
-    name: "Doink",
-    animal: "Cat",
-    breed: "Mixed "
   }));
 };
 
-(0, _reactDom.render)(_react.default.createElement(App), document.getElementById("root"));
+(0, _reactDom.render)(_react.default.createElement(App, null), document.getElementById("root"));
 },{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./Pet":"Pet.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -31878,7 +31852,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50736" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55274" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
